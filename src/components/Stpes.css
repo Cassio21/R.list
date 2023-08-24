@@ -1,0 +1,39 @@
+.stpes {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.stpes::after {
+  position: absolute;
+  top: 20px;
+  content: "";
+  width: 380px;
+  border-bottom: 1px solid #888;
+}
+
+.step {
+  text-align: center;
+  width: 120px;
+  padding: 0.5rem;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.step svg {
+  font-size: 1.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.active svg {
+  fill: #631edb;
+}

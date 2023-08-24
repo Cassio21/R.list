@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Text Me One", sans-serif;
+  color: #000;
+}
+
+p {
+  color: rgb(5, 28, 52);
+}
+
+body {
+  background: linear-gradient(90deg, #ceb4f8, #a575f3, #892892);
+}

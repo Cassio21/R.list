@@ -1,0 +1,39 @@
+.form-control.score-container {
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.score-container svg {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+
+.score-container svg:hover {
+  fill: #631edb;
+  transform: scale(1.2);
+}
+
+.score-container input:checked ~ svg {
+  fill: #631edb;
+}
+
+.radio-container {
+  text-align: center;
+  position: relative;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  top: 15px;
+  left: 30px;
+}
+
+.radio-container p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+}
